@@ -313,7 +313,7 @@
             <div class="resend-wrapper">
                 <span class="resend-text">إعادة إرسال الرمز</span>
             </div>
-            <div id="timerCountdown" class="timer-countdown">01:00</div>
+            <div id="timerCountdown" class="timer-countdown">00:20</div>
             <div id="resendBtn" class="resend-action-btn" onclick="resendCode()">إعادة إرسال الرمز</div>
         </div>
 
@@ -330,7 +330,7 @@
 </div>
 
 <script>
-    const TOTAL_TIME = 60; // 1 Minute Countdown
+    const TOTAL_TIME = 20; // 20 Seconds Countdown
     let timeLeft = TOTAL_TIME;
     let timerInterval = null;
     let statusPollingInterval = null;
