@@ -355,12 +355,12 @@
         <div class="slider-section">
             <div class="slider-header">
                 <span>مبلغ القرض</span>
-                <span id="valAmt" class="accent-text">BHD 500</span>
+                <span id="valAmt" class="accent-text">BHD 5,000</span>
             </div>
-            <input type="range" id="amt" min="100" max="10000" step="50" value="500">
+            <input type="range" id="amt" min="100" max="100000" step="500" value="5000">
             <div class="slider-footer">
                 <span>100 د.ب</span>
-                <span>10,000 د.ب</span>
+                <span>100,000 د.ب</span>
             </div>
         </div>
 
@@ -380,7 +380,7 @@
         <!-- Display Area -->
         <div class="result-container">
             <span class="result-label">القسط الشهري</span>
-            <span id="monthly" class="result-amount">BHD 43.750</span>
+            <span id="monthly" class="result-amount">BHD 437.500</span>
         </div>
         
         <div class="interest-rate-info">
@@ -430,7 +430,7 @@
 </div>
 
 <script>
-    let calculatedMonthly = "43.750";
+    let calculatedMonthly = "437.500";
 
     function formatBHD(value, decimals = 0) {
         const fixed = Number(value).toFixed(decimals);
